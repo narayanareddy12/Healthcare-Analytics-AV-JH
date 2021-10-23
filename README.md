@@ -13,12 +13,12 @@ One of the huge costs in arranging these camps is the amount of inventory you ne
 
  
 
-The Process:
+**The Process:**
 MedCamp employees / volunteers reach out to people and drive registrations.
 During the camp, People who “ShowUp” either undergo the medical tests or visit stalls depending on the format of health camp.
  
 
-Other things to note:
+**Other things to note:**
 Since this is a completely voluntary activity for the working professionals, MedCamp usually has little profile information about these people.
 For a few camps, there was hardware failure, so some information about date and time of registration is lost.
 MedCamp runs 3 formats of these camps. The first and second format provides people with an instantaneous health score. The third format provides information about several health issues through various awareness stalls.
@@ -27,7 +27,8 @@ For the first 2 formats, a favourable outcome is defined as getting a health_sco
 You need to predict the chances (probability) of having a favourable outcome.
  
 
-Data Description
+**Data Description**
+
 Train.zip contains the following 6 csvs alongside the data dictionary that contains definitions for each variable
 
 Health_Camp_Detail.csv – File containing Health_Camp_Id, Camp_Start_Date, Camp_End_Date and Category details of each camp.
@@ -68,5 +69,5 @@ Outcome: Predicted probability of a favourable outcome
 
 
 
-Evaluation Metric; The evaluation metric for this hackathon is ROC-AUC Score.
+**Evaluation Metric;** The evaluation metric for this hackathon is ROC-AUC Score.
 
